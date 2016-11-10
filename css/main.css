@@ -330,16 +330,13 @@ footer a:hover{
     footer p{
         float: left;
         text-align: left;
-        width:40%;
+        width:30%;
     }
-    footer ul{
-        float: right;
-    }
-    footer li{
-        float:left;
-    }
+    
+   
     footer a{
         
+        float:left;
         display:inline-block;
         padding:0 1rem;
         border-right:1px solid #ffa11b;
@@ -374,7 +371,7 @@ footer a:hover{
     nav{
         width:30%;
         float:left;
-        margin:none;
+        margin:0;
         
    
     }
@@ -449,13 +446,12 @@ footer a:hover{
         float: right;
         text-align:left;
         margin: auto;
-        width:50%;
+        width:60%;
     }
     footer a{
         float:left;
         display:inline-block;
         padding:0 1rem;
-        text-align: left;
         font-weight: normal;
         text-decoration:none;
         border-right: 1px solid #ffa11b;
