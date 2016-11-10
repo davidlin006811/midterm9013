@@ -6,9 +6,16 @@ Droid Sans Mono
 
 Font Scaling
 6.854rem
+5.618rem
+5.236rem
+4.618rem
 4.236rem
+3.618rem
+3.236rem
 2.618rem
+2.236rem
 1.618rem
+1.236rem
 1.0rem
 0.618rem
 
@@ -35,12 +42,12 @@ html,body{
 DEFAULTS - MOBILE FIRST 
 ***************************/
 h1{
-    font: bold 5.454rem 'Lora', 'Palatino', 'Georia', serif; }
+    font: bold 5.236rem 'Lora', 'Palatino', 'Georia', serif; }
 h2{
     font: bold 4.236rem 'Lora', 'Palatino', 'Georia', serif;
 }
 li, p, a{
-    font: normal 1.618rem 'Source Sans Pro', 'Tahoma', arial, sans-serif;
+    font: normal 2.236rem 'Source Sans Pro', 'Tahoma', arial, sans-serif;
 }
 pre, code, kbd{
     font: normal 1.0rem 'Source Sans Pro', 'Tahoma', arial, sans-serif; 
@@ -83,7 +90,7 @@ nav a,
 nav a:link,
 nav a:visited{
     display: block;
-    font: bold 2.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+    font: bold 3.236rem 'Droid Sans', 'more font stack stuff', sans-serif;
     color:#1f1d1a;
     text-decoration: none;
     text-align: center;
@@ -157,6 +164,9 @@ footer a:hover{
     h2{
         font-size: 2.618rem;
     }
+    li, p, a{
+        font-size: 1.618rem;
+    }
     .wrapper{
         width:100%;
        
@@ -183,7 +193,7 @@ footer a:hover{
     nav a:visited{
         display:inline-block;
         margin:1rem 0;
-        font-size: 1.618rem;
+        font-size: 1.236rem;
         border: none;
     }
     nav a:nth-child(1){
@@ -239,12 +249,15 @@ footer a:hover{
 @media screen and (min-width: 800px) and (max-width:1200px){
     
     h1{
-        font-size: 4.236rem;
+        font-size: 3.618rem;
     }
     h2{
         font-size: 2.618rem;
         margin-bottom:1rem;
     } 
+    li, p, a{
+        font-size: 1.236rem;
+    }
     .wrapper{
         width: 100%;
     }
@@ -282,6 +295,7 @@ footer a:hover{
         margin:1rem 0;
         font-size: 1.618rem;
         border: none;
+        
     }
     
     /*nav:after{
@@ -356,12 +370,12 @@ footer a:hover{
        
     }
     h2{
-        font-size: 2.618rem;
+        font-size: 2.236rem;
          margin: 1.6rem 0;
     }
-    p{
+    li, a, p{
         font-weight: normal;
-        font-size: 1.2rem;
+        font-size: 1.0rem;
     }
     
      .wrapper{
@@ -392,8 +406,8 @@ footer a:hover{
         border: none;
         border-bottom: 0.2rem solid #ffa11b;
         text-align: left;
-        font-size: 2.618rem;
-    }
+        font-size:2.618rem;
+      }
     
    
     main{
