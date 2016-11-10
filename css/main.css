@@ -16,6 +16,7 @@ Font Scaling
 2.236rem
 1.618rem
 1.236rem
+1.1rem
 1.0rem
 0.618rem
 
@@ -57,8 +58,7 @@ pre, code, kbd{
     }
 footer p,
 footer a
-{
-    font: normal 1.0rem 'Source Sans Pro', 'Tahoma', arial, sans-serif; 
+{  font: normal 1.618rem 'Source Sans Pro', 'Tahoma', arial, sans-serif; 
     }
 /***************************
     LAYOUT - MOBILE FIRST
@@ -131,8 +131,6 @@ footer{
     padding-top:0.5rem;
     display:inline-block;
     border-top:0.1rem solid #ffa11b;
-    
-   
 }
 footer li{
     list-style-type:none;
@@ -244,7 +242,11 @@ footer a:hover{
         padding:0.5rem 0 1rem 0;
         display: inline-block;
     }
-   
+    footer p,
+    footer a{
+        font-size: 1.236rem;
+    }
+    
 }
 @media screen and (min-width: 800px) and (max-width:1200px){
     
@@ -346,7 +348,7 @@ footer a:hover{
         text-align: left;
         width:30%;
     }
-    
+  
    
     footer a{
         
@@ -360,6 +362,10 @@ footer a:hover{
     }
     footer li:last-child  a{
         border-right:none;
+    }
+    footer p,
+    footer a{
+        font-size: 1.1rem;
     }
     
 }
@@ -473,4 +479,9 @@ footer a:hover{
     footer li:last-child  a{
         border-right:none;
     }
+    footer p,
+    footer a{
+       font-size: 1.0rem;
+    }
+    
 }
